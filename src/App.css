@@ -1,13 +1,16 @@
 .App {
   background: #000;
   height: 100vh;
+  display: grid;
+  place-content: center;
   
 }
 
-main {
-  border: 1px solid #fff;
+main { 
   aspect-ratio: 9/16;
   border-radius: 3px;
-  max-width: 375px;
-  width: 100vw;
+  overflow-y: scroll;
+  height: auto;
+  width: 375px;
+  display: block;
 }
